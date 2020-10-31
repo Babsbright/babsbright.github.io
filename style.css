@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: #faeee7;
+  font-family: 'source serif pro';
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  max-width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #333333;
+  height: 50px;
+}
+
+.brand{
+  font-size: 14px;
+font-family: Source Serif Pro;
+font-style: normal;
+font-weight: normal;
+color: #333333;
+
+}
+header nav {
+  padding: 15px 1px;
+  font-size: 10px!important;
+  text-align: center; 
+font-family: Source Serif Pro;
+font-style: normal;
+font-weight: normal;
+color: #333333;
+}
+p{
+  font-size: 15px!important;
+}
+
+header a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+span a{
+  color: black;
+}
+#section-one {
+  
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  background-color: #7c583b;
+  color: white;
+}
+#section-one #text-container {
+  width: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+#section-one #text-container h1 {
+  font-size: 30px;
+  
+}
+#display {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.display {
+  background-color: white;
+  width: 45%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.display h3 {
+  font-family: 'Podkova';
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+#heading {
+  padding-left: 5%;
+  
+}
+hr{
+ 
+position: absolute;
+width: 100px;
+height: 0px;
+left: 25px;
+top: 920px;
+border: 1px solid #000000;
+
+}
+.monthly-deals {
+  background-color: #faeee7;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.deal-item {
+  width: 20%;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.deal-item img {
+  width: 95%;
+  height: auto;
+  margin-top: -30px;
+}
+.deal-item .old-price {
+  text-decoration: line-through;
+  text-decoration-color: #d93f3f;
+}
+#recent-news {
+  padding-left: 5%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  align-items: flex-start;
+}
+#recent-news #txt-container {
+  width: 40%;
+}
+#recent-news #img-container {
+  width: 60%;
+}
+#recent-news #imgb {
+  margin-top: -55%;
+  margin-left: -15%;
+  width: 200px;
+}
+#recent-news h3 {
+  margin-bottom: 40%;
+}
+#imga{
+  width: 250px;
+}
+
+#discover {
+  padding: 10px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #d84727;
+}
+#discover h6,h4 {
+padding-right: 50px;
+}
+#recent-news h6 {
+font-size: 13px!important;
+}
+.fa-heart-o {
+  color: #d93f3f;
+  padding: 5px;
+  border: 1px solid #d93f3f;
+}
+.cart {
+  background-color: #7c583b!important;
+  border: none;
+  color: white;
+  padding: 6px;
+}
+
+#series-display {
+  background-color: #faeee7;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#series-display h3 {
+  padding-left: 25%;
+
+}
+.series-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.series-item img {
+  background: #f3d7c7;
+}
+.see-more {
+  width: 100%;
+  text-align: center;
+  background-color: #faeee7;
+}
+#see-more {
+  padding: 10px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #d84727;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+#partners {
+  padding-right: 2%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  background-color: #9c785a;
+}
+#partners .logo {
+  width: 20%;
+}
+footer {
+  background-color: #7c583b;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  font-family: 'source serif pro';
+}
+.footer-flex {
+  width: 20%;
+}
+.footer-flex a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  line-height: 32px;
+}
+.footer-flex p b {
+  margin-right: 20px;
+}
+.footer-flex #social-icons {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (min-width:900px){
+ 
+  .brand{
+    font-size: 20px;
+  margin-top: 11px;
+  }
+  header nav {
+    padding: 15px 5px;
+    font-family: Source Serif Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 17px!important;
+
+    text-align: center;
+  }
+  p{
+    font-size: 15px!important;
+  }
+
+ 
+  #section-one #text-container {
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+  }
+  #section-one #text-container h1 {
+    font-family: Source Serif Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0.02em;
+    
+  }
+  .display h3 {
+    font-family: 'Podkova';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  
+  }
+
+  #image1{
+    position: relative;
+    top: 100px;
+    width: 300px!important;
+  }
+  #image2{
+    position: relative;
+    top: 50px;
+    left: -200px;
+    width: 300px!important;
+  }
+
+  #imga{
+    width: 350px;
+    margin-bottom: 2%;
+  }
+  #recent-news #imgb {
+    margin-left: -55%;
+    width: 250px;
+  }
+  #recent-news #txt-container {
+    padding-right: 10px;
+    position: relative;
+    top: -150px;
+
+    }
+  #recent-news h4 {
+    padding-right: 10px;
+    font-size: 22px!important;
+
+    }
+    #recent-news h6 {
+    font-size: 18px!important;
+    
+    }
+}
